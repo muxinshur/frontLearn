@@ -1,0 +1,413 @@
+body{
+    width: 980px;
+    height: 1386px;
+    margin: auto;
+}
+
+#app{
+    margin: 0 44px;
+    width: 892px;
+}
+
+hr{
+    margin: 0;
+    border-width: 2px;
+}
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.titleRedBlock{
+    background-color: #D45D5C;
+    width: 110px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.titleRedBlock > div{
+    font-size: 14px;
+    color: white;
+}
+
+#context1{
+    height: 301px;
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+}
+.carouselContainer{
+    width: 641px;
+    height: 301px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carouselContainer > img{
+    width: 641px;
+    height: 301px;
+    position: absolute;
+    z-index: 0;
+}
+
+.carouselGreenMask{
+    width: 191px;
+    height: 301px;
+    opacity: 0.5;
+    background-color: rgba(0,255,0,50%);
+    z-index: 1;
+}
+
+.carouselRedMask{
+    width: 191px;
+    height: 301px;
+    opacity: 0.5;
+    background-color: rgba(255,0,0,50%);
+    z-index: 1;
+}
+
+.carouselRightContainer{
+    width: 203px;
+}
+
+.carouselRightContainer > hr{
+    width: 202px;
+    height: 2px;
+    background: #CC8091;
+}
+
+.carouselRightContent1{
+    width: 199px;
+    height: 53px;
+    margin-top: 15px;
+    font-family: MicrosoftYaHei;
+    font-size: 24px;
+    color: #040000;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    text-decoration-line: underline;
+    text-transform: none;
+}
+
+.carouselRightContent2{
+    width: 202px;
+    height: 21px;
+    margin-top: 10px;
+    font-family: KaiTi;
+    font-size: 12px;
+    color: #676767;
+    line-height: 10px;
+    text-align: left;
+    font-style: italic;
+    text-transform: none;
+}
+
+.carouselRightContent3{
+    width: 202px;
+    height: 95px;
+    margin-top: 15px;
+    margin-left: -20px;
+    font-family: MicrosoftYaHei;
+    font-size: 116px;
+    color: #75B86B;
+    line-height: 116px;
+    text-align: left;
+    font-style: italic;
+    text-transform: none;
+}
+
+.carouselRightContent4{
+    width: 72px;
+    height: 44px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-family: MicrosoftYaHei;
+    font-size: 55px;
+    color: #CC8091;
+    line-height: 55px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.carouselRightContent5{
+    width: 29px;
+    height: 11px;
+    font-family: MicrosoftYaHei;
+    font-size: 21px;
+    color: #CC8091;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.carouselRightContent6{
+    width: 86px;
+    height: 6px;
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #231815;
+    line-height: 14px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+#context2{
+    height: 168px;
+    margin-top: 41px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.context2Context1{
+    width: 140px;
+}
+
+.context2Context1Content1{
+    width: 43px;
+    height: 17px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: bold;
+    color: #418C59;
+    line-height: 0px;
+    text-align: left;
+    font-style: normal;
+    text-decoration-line: underline;
+    text-transform: none;
+}
+
+.context2Context1Content2{
+    width: 228px;
+    height: 140px;
+    font-family: SimSun;
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.context2Context2{
+    width: 140px;
+    margin-left: 110px;
+}
+
+.context2Context2Content1{
+    width: 48px;
+    height: 17px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: bold;
+    color: #D2994F;
+    line-height: 0px;
+    text-align: left;
+    font-style: normal;
+    text-decoration-line: underline;
+    text-transform: none;
+}
+
+.context2Context2Content2{
+    width: 204px;
+    height: 140px;
+    font-family: SimSun;
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.context2Context3{
+    width: 131px;
+    margin-left: 85px;
+}
+
+.context2Context3Content1{
+    width: 38px;
+    height: 16px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: bold;
+    color: #CC7680;
+    line-height: 0px;
+    text-align: left;
+    font-style: normal;
+    text-decoration-line: underline;
+    text-transform: none;
+}
+
+.context2Context3Content2{
+    width: 131px;
+    height: 54px;
+    font-family: SimSun;
+    font-size: 12px;
+    color: #767777;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.context2Context3Content3{
+    width: 101px;
+    height: 53px;
+    margin-top: 10px;
+    font-family: MicrosoftYaHei;
+    font-size: 10px;
+    color: #231815;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+#context3{
+    height: 605px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.context3Context1{
+    width: 428px;
+}
+
+.context3Context1Content1{
+    width: 355px;
+    height: 90px;
+    font-family: SimHei;
+    font-size: 33px;
+    font-weight: bold;
+    color: #11456B;
+    line-height: 33px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.context3Context1Content1:first-letter{
+    font-size: 72px;
+    color: #F5E327;
+    line-height: 39px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.context3Context1Content2{
+    width: 201px;
+    height: 32px;
+    font-family: SimHei;
+    font-size: 33px;
+    font-weight: bold;
+    color: #11456B;
+    line-height: 33px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.context3Context1 > hr{
+    width: 415px;
+    height: 2px;
+    background: #10456B;
+}
+
+.context3Context1Content3{
+    position: relative;
+    width: 415px;
+    height: 90px;
+    margin-top: 20px;
+    font-family: SimHei;
+    font-size: 14px;
+    color: #767777;
+    line-height: 21px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.context3Context1Content3:first-letter{
+    font-size: 72px;
+    color: #F5E327;
+    line-height: 39px;
+    text-align: left;
+    font-style: normal;
+    text-transform: none;
+}
+
+.context3Context1Content3 > img{
+    width: 167px;
+    height: 288px;
+    margin: 10px 10px 10px 10px;
+    float: right;
+    clear: both;
+}
+
+.context3Context2{
+    width: 428px;
+}
+
+.context3Context2Context1{
+    width: 458px;
+    height: 257px;
+    background: url('../images/background.png') no-repeat center center;
+    position: relative;
+    z-index: 0;
+}
+
+.context3Context2Context2{
+    width: 458px;
+    height: 368px;
+    background: #EEEDD6;
+    margin-top: 100px;
+    position: relative;
+}
+
+.context3Context2Context1Context1{
+    width: 458px;
+    height: 70px;
+    background: rgba(0,0,0,50%);
+    z-index: 1;
+    position: absolute;
+    top: 187px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.context3Context2Context2Context1{
+    padding-top: 30px;
+}
+
+.context3Context2Context2Context2{
+    width: 250px;
+    height: 150px;
+    background-color: indianred;
+    position: absolute;
+    top: 218px;
+    display: flex;
+    justify-item: space-between;
+    z-index: 0;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.context3Context2Context2Context2 > hr{
+    width: 30px;
+    border-color: white;
+    z-index: 1;
+}
+
