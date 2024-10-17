@@ -46,8 +46,10 @@ export default {
         <div id="context3"> 
             <div class="context3Context1">     
                 <div class="context3Context1Content1">
-                    THE TECHNOLOGE OF FRONT
+                    <div class="fontDiv" style="font-size: 72px;color: #F5E327;line-height: 39px;text-align: left;font-style: italic;text-transform: none;margin-right: 10px">The</div>
+                    <div class="fontDiv">TECHNOLOGE</div>                    
                 </div>
+                <div style="font-size: 33px;font-weight: bold;color: #11456B;line-height: 33px;text-align: left;font-style: normal;text-transform: none;margin-bottom: 10px">OF FRONT</div>
                 <div class="context3Context1Content2">   
                     前端技术领域
                 </div>
@@ -58,8 +60,10 @@ export default {
             </div>
             <div class="context3Context2">   
                 <div class="context3Context2Context1">   
-                    <div class="context3Context2Context1Context1">   
-                        前端技术
+                    <div class="context3Context2Context1Context1">
+                        <hr>
+                        <div style="font-size: 40px;color: white;" class="fontDiv">前端技术</div>
+                        <div style="font-size: 20px;color: green;margin-left: 20px;font-style: italic" class="fontDiv">前端前端前端</div>                   
                     </div>
                 </div>
                 <div class="context3Context2Context2">   
@@ -72,8 +76,13 @@ export default {
                     </div>
                     <div class="context3Context2Context2Context2">   
                         <hr>
-                        ONE TWO THREE
-                    </div>                
+                        <div class="fontDiv">ONE TWO THREE</div>                       
+                    </div>    
+                    <div class="context3Context2Context2Context3">
+                        <div style="font-size: 72px;color: indianred;align-self: flex-start">“</div>   
+                        world hello world hello world hello world hello world hello world hello world hello world
+                        <div style="font-size: 72px;color: indianred;align-self: flex-end">”</div>   
+                    </div>            
                 </div>
             </div>
         </div>                             
